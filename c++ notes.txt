@@ -1,0 +1,37 @@
+1. String reverse by .pushback()
+	eg. str_rev.push_back(str[i]);
+str_rev is the name of reversed string || Time Complexity is O(1)
+
+2. Array order 10^7 for global arrays 
+	eg. const int n = 1e7;
+	int a[n];(after namespace)
+   Array order 10^5 for local arrays
+	eg. int n = 1e5;
+	    int arr[n];(after main)
+
+3. Array is always passed by reference(& not required).
+   Declare arrays globally. 
+	const int N = 1e5+10;
+	int a[N];
+	void func(){
+		a[0][0] = 5;
+	}
+
+4. *p is readed as value at p.
+
+5. a. (a+b)%M = ((a%M) + (b%M))%M
+   b. (a*b)%M = ((a%M)*(b%M))%M
+   c. (a-b)%M = ((a%M)-(b%M) + M)%M
+   d. (a/b)%M = ((a%M)(b^-1)%M)%M
+
+
+
+
+
+
+
+
+
+
+
+
